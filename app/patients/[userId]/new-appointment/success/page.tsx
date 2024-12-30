@@ -48,7 +48,7 @@ const RequestSuccess = async ({
           <p>Requested appointment details: </p>
           <div className="flex items-center gap-2">
             <Image
-              src={doctor?.image!}
+              src={doctor.image!}
               alt="doctor"
               width={100}
               height={100}
